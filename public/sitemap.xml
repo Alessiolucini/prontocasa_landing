@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://prontocasa.net/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Azienda -->
+  <url>
+    <loc>https://prontocasa.net/chi-siamo</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prontocasa.net/recensioni</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prontocasa.net/diventa-professionista</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://prontocasa.net/blog</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://prontocasa.net/blog/come-scegliere-idraulico-affidabile</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://prontocasa.net/blog/idraulico.png</image:loc>
+      <image:title>Come scegliere un idraulico affidabile</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://prontocasa.net/blog/problemi-elettrici-comuni</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://prontocasa.net/blog/elettricista.png</image:loc>
+      <image:title>10 problemi elettrici comuni e come risolverli</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://prontocasa.net/blog/manutenzione-climatizzatore</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://prontocasa.net/blog/climatizzatore.png</image:loc>
+      <image:title>Manutenzione del climatizzatore guida completa</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://prontocasa.net/blog/ristrutturare-casa</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://prontocasa.net/blog/ristrutturazione.png</image:loc>
+      <image:title>Ristrutturare casa da dove iniziare</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://prontocasa.net/blog/risparmiare-bollette-casa</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://prontocasa.net/blog/risparmio.png</image:loc>
+      <image:title>Come risparmiare sulle bollette di casa</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://prontocasa.net/blog/guida-tinteggiatura-fai-da-te</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://prontocasa.net/blog/tinteggiatura.png</image:loc>
+      <image:title>La guida alla tinteggiatura fai da te</image:title>
+    </image:image>
+  </url>
+
+  <!-- Supporto -->
+  <url>
+    <loc>https://prontocasa.net/centro-assistenza</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prontocasa.net/contattaci</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prontocasa.net/faq</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Legale -->
+  <url>
+    <loc>https://prontocasa.net/privacy-policy</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://prontocasa.net/termini-condizioni</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://prontocasa.net/cookie-policy</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

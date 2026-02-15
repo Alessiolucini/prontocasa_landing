@@ -1,0 +1,201 @@
+/* ===== Services Section ===== */
+.services {
+    padding: var(--space-5xl) 0;
+    background: var(--color-bg);
+    position: relative;
+}
+
+.services__header {
+    text-align: center;
+    margin-bottom: var(--space-4xl);
+    opacity: 0;
+}
+
+.services--visible .services__header {
+    animation: fadeInUp 0.7s ease forwards;
+}
+
+.services__label {
+    display: inline-block;
+    padding: 0.35rem 1rem;
+    background: var(--color-primary-glow);
+    color: var(--color-primary);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: var(--radius-full);
+    margin-bottom: var(--space-md);
+}
+
+.services__title {
+    font-size: var(--font-size-4xl);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-md);
+    line-height: 1.2;
+}
+
+.services__accent {
+    color: var(--color-primary);
+}
+
+.services__subtitle {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+    max-width: 550px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+/* Grid */
+.services__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+/* Card */
+.services__card {
+    position: relative;
+    padding: 2rem;
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-xl);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    overflow: hidden;
+    opacity: 0;
+}
+
+.services--visible .services__card {
+    animation: fadeInUp 0.6s ease var(--card-delay) forwards;
+}
+
+.services__card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--card-color);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--transition-base);
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+}
+
+.services__card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-lg);
+    border-color: transparent;
+}
+
+.services__card:hover::before {
+    transform: scaleX(1);
+}
+
+.services__card-icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    background: var(--color-bg-warm);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--space-lg);
+    transition: all var(--transition-base);
+}
+
+.services__card:hover .services__card-icon {
+    transform: scale(1.1);
+}
+
+.services__card-title {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-sm);
+}
+
+.services__card-desc {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin-bottom: var(--space-lg);
+}
+
+.services__card-arrow {
+    color: var(--card-color);
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all var(--transition-base);
+}
+
+.services__card:hover .services__card-arrow {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 968px) {
+    .services {
+        padding: var(--space-4xl) 0;
+    }
+
+    .services__header {
+        margin-bottom: var(--space-3xl);
+    }
+
+    .services__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services__title {
+        font-size: var(--font-size-3xl);
+    }
+
+    .services__subtitle {
+        font-size: var(--font-size-base);
+    }
+}
+
+@media (max-width: 640px) {
+    .services {
+        padding: var(--space-3xl) 0;
+    }
+
+    .services__header {
+        margin-bottom: var(--space-2xl);
+    }
+
+    .services__grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .services__title {
+        font-size: var(--font-size-2xl);
+    }
+
+    .services__subtitle {
+        font-size: var(--font-size-sm);
+    }
+
+    .services__card {
+        padding: 1.5rem;
+    }
+
+    .services__card-icon {
+        width: 44px;
+        height: 44px;
+        font-size: 1.3rem;
+    }
+
+    .services__card-title {
+        font-size: var(--font-size-lg);
+    }
+}
